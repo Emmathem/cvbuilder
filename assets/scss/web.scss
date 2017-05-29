@@ -430,15 +430,16 @@ section {
     height: 60%;
     background-repeat: no-repeat;
     h2 {
-        color: #543345;
-        font-weight: bold;
         text-align: center;
-        position: absolute;
+        padding-top: 10%;
+        font-weight: bold;
+        color: #fff;
+        font-size: 4em;
     }
 }
 
 .contact-page-cover {
-    background: #fff;
+    background: #111;
     content: " ";
     opacity: 0.75;
     min-height: 100%;
@@ -468,4 +469,21 @@ section {
     border:none;
     width: 40%;
 }
-
+.detail{
+    margin-right: 3.5rem;
+    height: inherit;
+    border-right: 2px solid #866587;
+    h3 {
+        font-size: 1.54em;
+        color: black;
+    }
+    .contact-address {
+        display: block;
+        break-after: column;
+        text-align: left;
+        color: #333;
+        line-height: 25px;
+        padding: 10px 15px;
+        height: 400px;
+    }
+}

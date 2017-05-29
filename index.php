@@ -42,9 +42,7 @@
                                 <div class="form-group">
                                     <a href="" type="submit" class="btn btn-get-start" id="sign-in-btn-1">Click Here To Get Started</a>
                                 </div>
-                                <div class="form-group">
-                                    <a href="" type="submit" class="btn btn-success" id="sign-in-btn-1">Login</a>
-                                </div>
+                                
                             </form>
                         </li>
                     </ul>
