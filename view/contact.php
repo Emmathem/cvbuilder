@@ -52,19 +52,41 @@
         </nav>
     </header>
 
-    <section class = "contact-page">
-        <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".6s"><h2>Contact Us</h2></div>
+    <section class="contact-page">
+        <div class="contact-page-cover"></div>
+        <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".6s">
+            <h2>Contact Us</h2>
+        </div>
     </section>
-    <section id = "about" class="about-us-inner about-page-bg">
-      <div class="about-page-cover"></div>
-       <div>
-            <div class="col-md-offset-2 col-sm-11 col-md-8">
-               <div class="">
-
-                    Contact us through form or 
+    <section id="contact" class="">
+        <div>
+            <div class="col-md-offset-2 col-sm-11 col-md-10">
+                <div class="contact-inner">
+                    <div class = "col-md-4">
+                        Our Contact Details
+                    </div>
+                    <div class = "col-md-5">
+                        <form class = "form-horizontal" action = "" method = "post">
+                            <div class="form-group">
+                                <label>Name:</label>
+                                <input type = "text" name ="name" placeholder = "Enter your Fullname" class = "form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address:</label>
+                                <input type = "email" name ="email" placeholder = "Enter your Email Address" class = "form-control">
+                            </div>
+                            <div class="form-group">
+                               <label>Your Message:</label>
+                                <textarea name = "message" class="form-control" cols = "6" rows ="8"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class = "btn btn-msg" name = "submit" type = "submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-           </div>
         </div>
     </section>
 
-<?php include 'views-stubs/footer.php'; ?>
+    <?php include 'views-stubs/footer.php'; ?>

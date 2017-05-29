@@ -1,0 +1,1269 @@
+/*!
+DESIGNED BY OLUDOTUN LONGE
+13TH APRIL, 2017
+*/
+/* line 20, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+/* line 28, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+nav > li > a:hover,
+a:focus {
+  background: none;
+  color: #777; }
+
+/* line 36, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.nav li a:hover,
+.nav li a:focus {
+  background: none;
+  color: #777; }
+
+@media (max-width: 767px) {
+  /* line 45, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-nwts .navbar-nav > li > a {
+    color: #666; } }
+
+@media (min-width: 768px) {
+  /* line 51, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-nwts .navbar-nav > li > a {
+    color: #fff; }
+  /* line 54, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  nav {
+    background: transparent; } }
+
+/* line 59, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.navbar {
+  min-height: 2.85em;
+  border-radius: 0px; }
+
+/* line 64, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.navbar-collapse {
+  overflow: hidden; }
+
+/* line 68, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #333; }
+
+/* line 78, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+a,
+button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400; }
+
+/* line 84, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+a {
+  color: #fff; }
+
+/* line 88, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+p,
+span,
+div {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  color: #999; }
+
+@media (max-width: 425px) {
+  /* line 97, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 4.5em; } }
+
+@media (min-width: 20em) {
+  /* line 103, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts {
+    padding: .75em 2em; }
+  /* line 106, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div {
+    min-height: 250px;
+    line-height: 250px; }
+  /* line 110, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right li {
+    padding: 2rem 2rem; }
+  /* line 113, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts-2 {
+    height: 4em;
+    width: 12em; }
+  /* line 117, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 4.1em; }
+  /* line 120, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  div,
+  p,
+  span {
+    font-size: 14px; }
+  /* line 125, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  a,
+  button {
+    font-size: 14px; }
+  /* line 129, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-nav > li > a {
+    padding-top: 1.65em;
+    padding-bottom: 1.65em; }
+  /* line 133, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand {
+    padding: 1.25em 1.65em; } }
+
+@media (min-width: 64em) {
+  /* line 139, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts {
+    padding: .75em 2em; }
+  /* line 142, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div {
+    min-height: 325px;
+    line-height: 325px; }
+  /* line 146, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right li {
+    padding: 2rem 2rem; }
+  /* line 149, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts-2 {
+    height: 4em;
+    width: 12em; }
+  /* line 153, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 4.5em; }
+  /* line 156, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  div,
+  p,
+  span {
+    font-size: 14px; }
+  /* line 161, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  a,
+  button {
+    font-size: 14px; }
+  /* line 165, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-nav > li > a {
+    padding-top: 1.65em;
+    padding-bottom: 1.65em; }
+  /* line 169, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand {
+    padding: 1.25em 1.65em; } }
+
+@media (min-width: 85.375em) {
+  /* line 175, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts {
+    padding: .75em 2em; }
+  /* line 178, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div {
+    min-height: 350px;
+    line-height: 350px; }
+  /* line 182, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right li {
+    padding: 2rem 2rem; }
+  /* line 185, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts-2 {
+    height: 4em;
+    width: 12em;
+    font-size: 2.5rem; }
+  /* line 190, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 3.5em; }
+  /* line 193, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item .hwc-inner h4 {
+    font-size: 1.5em; }
+  /* line 196, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  div,
+  p,
+  span {
+    font-size: 18px; }
+  /* line 201, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  a,
+  button {
+    font-size: 14px; }
+  /* line 205, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand {
+    padding: 1.25em 1.65em; } }
+
+@media (min-width: 120em) {
+  /* line 211, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts {
+    padding: .75em 2em; }
+  /* line 214, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div {
+    min-height: 450px;
+    line-height: 450px; }
+  /* line 218, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right li {
+    padding: 2rem 2rem; }
+  /* line 221, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts-2 {
+    height: 4em;
+    width: 12em;
+    font-size: 2.5rem; }
+  /* line 226, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 3.5em; }
+  /* line 229, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item .hwc-inner h4 {
+    font-size: 1.7em; }
+  /* line 232, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  div,
+  p,
+  span {
+    font-size: 24.7646px; }
+  /* line 238, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand,
+  a,
+  button {
+    font-size: 24.7646px; }
+  /* line 244, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand {
+    padding: 0.95em; }
+  /* line 247, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar {
+    min-height: 3.55em;
+    border-radius: 0px; } }
+
+@media (min-width: 160em) {
+  /* line 254, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts {
+    padding: 1.25em 3em;
+    font-size: .8em; }
+  /* line 258, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div {
+    min-height: 500px;
+    line-height: 500px; }
+  /* line 262, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right li {
+    padding: 4rem 4rem; }
+  /* line 265, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .btn-nwts-2 {
+    height: 5em;
+    width: 12em;
+    font-size: 4.5rem; }
+  /* line 270, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    padding-top: 3.5em; }
+  /* line 273, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item .hwc-inner h4 {
+    font-size: 2em; }
+  /* line 276, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  div,
+  p,
+  span {
+    font-size: 24.7646px; }
+  /* line 281, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand,
+  a,
+  button {
+    font-size: 24.7646px; }
+  /* line 286, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-brand {
+    padding: 1.65em; }
+  /* line 289, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar {
+    min-height: 4.15em;
+    border-radius: 0px; } }
+
+/* line 295, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.navbar-nwts {
+  background: transparent; }
+  @media (max-width: 767px) {
+    /* line 298, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .navbar-nwts .container-fluid {
+      width: 99%; } }
+  @media (min-width: 768px) {
+    /* line 303, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .navbar-nwts .container-fluid {
+      width: 75%; } }
+  /* line 308, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-nwts .navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+    border-radius: 1em;
+    padding: .3em auto; }
+
+/* line 316, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.header-wrapper-carousel {
+  min-height: 65vh;
+  overflow: auto;
+  width: 100vw; }
+
+@media (max-width: 767px) {
+  /* line 323, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item {
+    max-height: 400px; } }
+
+/* line 328, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.item {
+  position: relative;
+  max-height: 65vh;
+  overflow: auto;
+  width: 100vw; }
+  /* line 333, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item .hwc-inner {
+    padding-top: 15.5vh;
+    z-index: 10000000000;
+    color: white; }
+    /* line 337, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .item .hwc-inner h4 {
+      color: #fff;
+      line-height: 2em; }
+    /* line 341, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .item .hwc-inner p {
+      font-style: italic;
+      font-size: 1.5em;
+      color: #dfdfdf;
+      font-weight: 300px; }
+
+/* line 356, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-1 {
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  min-height: 65vh;
+  width: 100vw; }
+
+/* line 365, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-1::before {
+  content: "";
+  position: absolute;
+  opacity: 0.6;
+  background-color: rgba(64, 128, 230, 0.7);
+  height: 100%;
+  width: 100vw; }
+
+/* line 356, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-2 {
+  background: url(../images/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  min-height: 65vh;
+  width: 100vw; }
+
+/* line 365, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-2::before {
+  content: "";
+  position: absolute;
+  opacity: 0.6;
+  background-color: rgba(64, 128, 230, 0.7);
+  height: 100%;
+  width: 100vw; }
+
+/* line 356, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-3 {
+  background: url(../images/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  min-height: 65vh;
+  width: 100vw; }
+
+/* line 365, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-3::before {
+  content: "";
+  position: absolute;
+  opacity: 0.6;
+  background-color: rgba(64, 128, 230, 0.7);
+  height: 100%;
+  width: 100vw; }
+
+/* line 356, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-4 {
+  background: url(../images/4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  min-height: 65vh;
+  width: 100vw; }
+
+/* line 365, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#item-4::before {
+  content: "";
+  position: absolute;
+  opacity: 0.6;
+  background-color: rgba(64, 128, 230, 0.7);
+  height: 100%;
+  width: 100vw; }
+
+/* line 377, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.btn-nwts {
+  margin-top: .25em;
+  border-radius: 10;
+  color: #fff;
+  background: #8C82FC; }
+
+/* line 384, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.container-fluid {
+  width: 75%; }
+
+@media (max-width: 425px) {
+  /* line 389, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .container-fluid {
+    width: 95%; } }
+
+/* line 394, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.after-slider {
+  padding-top: 2em; }
+
+/* line 398, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.after-slider-mid-edit {
+  padding-top: 1.5%; }
+
+/* line 402, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.mid {
+  padding-bottom: 2em;
+  overflow: hidden; }
+  /* line 405, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .mid p {
+    line-height: 2.25em;
+    color: #777;
+    text-align: center;
+    font-size: 1.065em;
+    padding-top: 9%; }
+  /* line 412, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .mid i {
+    margin: auto;
+    text-align: center;
+    line-height: 2.5em;
+    color: white;
+    font-size: 5em; }
+
+/* line 421, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.div-for-header {
+  padding-top: 3%;
+  padding-bottom: 6%; }
+
+/* line 426, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.mid-image {
+  margin: auto;
+  text-align: center;
+  height: 13em;
+  width: 13em;
+  border-radius: 50%;
+  position: relative; }
+
+/* line 435, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.mid-paragraph {
+  margin-top: 3%; }
+
+/* line 439, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-1::before {
+  content: '';
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  background: #7EFFDB;
+  border-radius: 50%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  margin: auto; }
+
+/* line 455, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-1 {
+  border: 2px dotted #7EFFDB;
+  background: transparent; }
+
+/* line 460, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-2 {
+  border: 2px dotted pink;
+  background: transparent; }
+
+/* line 465, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-2::before {
+  content: '';
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  background: pink;
+  border-radius: 50%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  margin: auto; }
+
+/* line 481, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-3 {
+  border: 2px dotted #FF9DE2;
+  background: transparent; }
+
+/* line 486, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#mid-image-3::before {
+  content: '';
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  background: #FF9DE2;
+  border-radius: 50%;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: block;
+  margin: auto; }
+
+/* line 502, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.post-mid-div-over {
+  background: #FF9DE2;
+  content: "";
+  opacity: 0.89;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 512, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.post-mid-div {
+  position: relative;
+  box-sizing: content-box;
+  background: url(../images/black.jpeg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: auto; }
+  /* line 521, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .post-mid-div h4 {
+    color: white;
+    font-size: 2em;
+    font-family: "Nunito";
+    font-weight: 400;
+    line-height: 1.4em; }
+
+/* line 530, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohorts {
+  margin: auto;
+  padding-bottom: 10%;
+  overflow: hidden;
+  width: 100vw; }
+
+/* line 539, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.Cohort-1 {
+  height: 420px;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: -1; }
+
+/* line 539, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.Cohort-2 {
+  height: 420px;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: -1; }
+
+/* line 539, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.Cohort-3 {
+  height: 420px;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: -1; }
+
+/* line 539, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.Cohort-4 {
+  height: 420px;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+  z-index: -1; }
+
+/* line 562, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-1-1 {
+  height: 50%;
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  z-index: -1; }
+
+/* line 573, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-1-2 {
+  background: #8C82FC;
+  height: 50%;
+  position: relative;
+  opacity: 0.75;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em; }
+  /* line 580, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-1-2 ul {
+    padding: 0; }
+    /* line 582, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .cohort-1-2 ul li {
+      list-style-type: none;
+      padding: 2.2rem 2rem 0.5em;
+      text-align: center; }
+      /* line 586, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .cohort-1-2 ul li a {
+        font-weight: 400;
+        cursor: none;
+        text-decoration: none;
+        font-size: 16px; }
+
+/* line 595, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-1-mid::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  background: #8C82FC;
+  opacity: 0.9;
+  z-index: -100;
+  color: white; }
+
+/* line 606, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-1-mid {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  z-index: 100;
+  color: white; }
+  /* line 613, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-1-mid h1,
+  .cohort-1-mid h2,
+  .cohort-1-mid h3,
+  .cohort-1-mid h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 1.05em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: .85em; }
+  /* line 625, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-1-mid p {
+    font-family: "Quicksand";
+    color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+
+/* line 562, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-2-1 {
+  height: 50%;
+  background: url(../images/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  z-index: -1; }
+
+/* line 573, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-2-2 {
+  background: #4080e6;
+  height: 50%;
+  position: relative;
+  opacity: 0.75;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em; }
+  /* line 580, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-2-2 ul {
+    padding: 0; }
+    /* line 582, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .cohort-2-2 ul li {
+      list-style-type: none;
+      padding: 2.2rem 2rem 0.5em;
+      text-align: center; }
+      /* line 586, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .cohort-2-2 ul li a {
+        font-weight: 400;
+        cursor: none;
+        text-decoration: none;
+        font-size: 16px; }
+
+/* line 595, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-2-mid::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  background: #4080e6;
+  opacity: 0.9;
+  z-index: -100;
+  color: white; }
+
+/* line 606, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-2-mid {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  z-index: 100;
+  color: white; }
+  /* line 613, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-2-mid h1,
+  .cohort-2-mid h2,
+  .cohort-2-mid h3,
+  .cohort-2-mid h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 1.05em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: .85em; }
+  /* line 625, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-2-mid p {
+    font-family: "Quicksand";
+    color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+
+/* line 562, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-3-1 {
+  height: 50%;
+  background: url(../images/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  z-index: -1; }
+
+/* line 573, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-3-2 {
+  background: #FF9DE2;
+  height: 50%;
+  position: relative;
+  opacity: 0.75;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em; }
+  /* line 580, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-3-2 ul {
+    padding: 0; }
+    /* line 582, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .cohort-3-2 ul li {
+      list-style-type: none;
+      padding: 2.2rem 2rem 0.5em;
+      text-align: center; }
+      /* line 586, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .cohort-3-2 ul li a {
+        font-weight: 400;
+        cursor: none;
+        text-decoration: none;
+        font-size: 16px; }
+
+/* line 595, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-3-mid::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  background: #FF9DE2;
+  opacity: 0.9;
+  z-index: -100;
+  color: white; }
+
+/* line 606, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-3-mid {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  z-index: 100;
+  color: white; }
+  /* line 613, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-3-mid h1,
+  .cohort-3-mid h2,
+  .cohort-3-mid h3,
+  .cohort-3-mid h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 1.05em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: .85em; }
+  /* line 625, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-3-mid p {
+    font-family: "Quicksand";
+    color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+
+/* line 562, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-4-1 {
+  height: 50%;
+  background: url(../images/4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  z-index: -1; }
+
+/* line 573, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-4-2 {
+  background: #d1d567;
+  height: 50%;
+  position: relative;
+  opacity: 0.75;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em; }
+  /* line 580, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-4-2 ul {
+    padding: 0; }
+    /* line 582, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .cohort-4-2 ul li {
+      list-style-type: none;
+      padding: 2.2rem 2rem 0.5em;
+      text-align: center; }
+      /* line 586, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .cohort-4-2 ul li a {
+        font-weight: 400;
+        cursor: none;
+        text-decoration: none;
+        font-size: 16px; }
+
+/* line 595, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-4-mid::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  background: #d1d567;
+  opacity: 0.9;
+  z-index: -100;
+  color: white; }
+
+/* line 606, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohort-4-mid {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 4.5em;
+  z-index: 100;
+  color: white; }
+  /* line 613, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-4-mid h1,
+  .cohort-4-mid h2,
+  .cohort-4-mid h3,
+  .cohort-4-mid h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 1.05em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: .85em; }
+  /* line 625, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohort-4-mid p {
+    font-family: "Quicksand";
+    color: #f3f3f3;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+
+/* line 637, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.btn-nwts-2 {
+  border-radius: 0;
+  border: 1px solid white;
+  background: transparent;
+  color: white; }
+
+/* line 644, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohorts-inner-header-section {
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 5%; }
+  /* line 647, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohorts-inner-header-section h2 {
+    color: #545;
+    font-weight: bold;
+    padding-bottom: .25em; }
+  /* line 652, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohorts-inner-header-section h4 {
+    color: #999;
+    font-weight: lighter;
+    padding-bottom: .25em;
+    font-size: 1.25em; }
+
+/* line 661, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.partners {
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  width: 100%;
+  background: #eee; }
+  @media (min-width: 992px) {
+    /* line 668, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .partners .col-md-1 {
+      width: 10.93333333%; } }
+  /* line 672, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .partners .seperator {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0; }
+
+/* line 680, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.partners-section {
+  width: 100%;
+  padding-bottom: 4%;
+  background: #eee;
+  overflow: auto; }
+
+/* line 687, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.partner-item {
+  padding: 0;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin: auto;
+  text-align: center; }
+  @media (min-width: 426px) {
+    /* line 687, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .partner-item {
+      height: 100px;
+      width: 100px; } }
+  @media (max-width: 425px) {
+    /* line 687, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    .partner-item {
+      height: 98px;
+      width: 98px; } }
+
+/* line 715, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#partner-item-1 {
+  background: url(../images/t4d.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+
+/* line 715, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#partner-item-2 {
+  background: url(../images/microsoft.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+
+/* line 715, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#partner-item-3 {
+  background: url(../images/nest.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+
+/* line 715, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#partner-item-4 {
+  background: url(../images/printivo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+
+/* line 715, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+#partner-item-5 {
+  background: url(../images/prunedge.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; }
+
+/* line 728, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cohorts-inner-partner-section {
+  padding-top: 7.5%;
+  text-align: center;
+  padding-bottom: 1%; }
+  /* line 731, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohorts-inner-partner-section h2 {
+    color: #545;
+    font-weight: bold;
+    padding-bottom: .25em; }
+  /* line 736, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .cohorts-inner-partner-section h4 {
+    color: #999;
+    font-weight: lighter;
+    padding-bottom: .25em;
+    font-size: 1.25em;
+    line-height: 1.4em; }
+
+/* line 746, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.after-partners {
+  min-height: 500px;
+  overflow: auto;
+  width: 100vw;
+  background: url(../images/girl.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  /* line 754, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .after-partners .itemr {
+    min-height: 500px;
+    width: 100%;
+    overflow: auto; }
+  /* line 759, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .after-partners .un-cursived {
+    overflow: auto;
+    color: #456;
+    z-index: 1;
+    position: relative;
+    font-weight: 300; }
+    @media (min-width: 768px) {
+      /* line 759, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .after-partners .un-cursived {
+        font-size: 1.7em;
+        line-height: 1.8em;
+        padding-top: 8%; } }
+    @media (min-width: 1600px) {
+      /* line 759, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .after-partners .un-cursived {
+        font-size: 2.3em;
+        line-height: 2em;
+        padding-top: 7%; } }
+    @media (max-width: 767px) {
+      /* line 759, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      .after-partners .un-cursived {
+        padding-top: 24%;
+        font-size: 1.3em;
+        line-height: 1.8em; } }
+
+/* line 783, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.after-partners::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: white;
+  opacity: 0.94; }
+
+/* line 793, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+footer {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #8C82FC; }
+  /* line 802, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer p {
+    color: #f0f0f0;
+    font-weight: 100;
+    font-size: .9em; }
+    @media (max-width: 425px) {
+      /* line 802, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer p {
+        text-align: center;
+        padding-bottom: 1.5em; } }
+    @media (min-width: 424px) {
+      /* line 802, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer p {
+        padding-left: 2rem; } }
+  @media (max-width: 425px) {
+    /* line 815, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer .container-fluid {
+      width: 95%; } }
+  @media (min-width: 426px) {
+    /* line 820, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer .container-fluid {
+      width: 75%; } }
+  /* line 824, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer ul {
+    padding: 0;
+    margin: 0; }
+    @media (max-width: 424px) {
+      /* line 824, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer ul {
+        padding-bottom: 1.5em; } }
+    @media (min-width: 425px) {
+      /* line 824, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer ul {
+        padding-bottom: .5em; } }
+    /* line 833, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer ul li {
+      margin: auto;
+      list-style-type: none;
+      display: inline-block; }
+      /* line 837, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer ul li a {
+        text-decoration: none; }
+  /* line 842, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .left {
+    text-align: center; }
+    @media (max-width: 424px) {
+      /* line 842, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer .left {
+        text-align: center; } }
+    @media (min-width: 425px) {
+      /* line 842, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer .left {
+        text-align: left; } }
+    /* line 850, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer .left li {
+      padding: 2rem 2rem 1.5rem; }
+      /* line 852, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer .left li a {
+        text-decoration: none; }
+  /* line 857, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  footer .right {
+    margin: auto;
+    padding-top: .5em;
+    text-align: center; }
+    /* line 858, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer .right li:hover {
+      border: none;
+      background: #337ab7; }
+      /* line 861, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer .right li:hover i {
+        color: white; }
+    /* line 868, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+    footer .right li {
+      display: inline-block;
+      color: white;
+      height: 1rem;
+      width: 1rem;
+      border-radius: 50%;
+      border: 0.2rem solid white;
+      position: relative;
+      margin: .5em; }
+      /* line 877, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+      footer .right li a {
+        color: white;
+        position: absolute;
+        line-height: 3em;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+
+/* line 890, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.wow {
+  visibility: hidden; }
+
+@media (min-width: 768px) {
+  /* line 895, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  #sign-up-button {
+    position: relative;
+    height: 3.5em;
+    opacity: .89;
+    width: 14em;
+    background: #4f63a0;
+    color: White;
+    border: 0;
+    z-index: 1000;
+    margin-top: 11em;
+    font-size: 1.1em; }
+  /* line 907, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  #sign-up-button:hover {
+    background: #2f63b1; } }
+
+@media (max-width: 767px) {
+  /* line 913, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .item .hwc-inner h4 {
+    font-size: 1.1em; }
+  /* line 916, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  #sign-up-button {
+    position: absolute;
+    height: 3.5em;
+    border-radius: .5em;
+    width: 14em;
+    background: orange;
+    color: White;
+    border: 0;
+    z-index: 1000;
+    margin-top: 18.9em;
+    font-size: 1.1em;
+    text-align: center; } }
+
+/* line 931, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.not-an-item {
+  position: absolute;
+  top: 0;
+  height: 65vh;
+  width: 75%;
+  background: transparent; }
+
+@media (min-width: 768px) {
+  /* line 940, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .col-md-offset-1-sp {
+    margin-left: 13.8%; } }
+
+@media (max-width: 767px) {
+  /* line 946, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-right li {
+    margin-left: 1.2em; }
+  /* line 949, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  .navbar-right button {
+    margin-left: 1.1em; } }
+
+/* line 954, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+sp {
+  padding: 2em;
+  line-height: 2em; }
+
+@media (max-width: 768px) {
+  /* line 960, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  sp {
+    display: block; } }
+
+@media (max-width: 767px) {
+  /* line 966, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  sp {
+    display: none; } }
+
+@media (min-width: 836px) {
+  /* line 972, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+  sp {
+    display: none; } }
+
+/* line 977, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cursived {
+  font-family: 'Cedarville Cursive', cursive;
+  color: #99a;
+  z-index: 1;
+  position: relative;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 5%; }
+
+/* line 989, /Applications/MAMP/htdocs/nwt-app/assets/scss/main.scss */
+.cursive {
+  font-family: 'Cedarville Cursive', cursive; }
+
+/*# sourceMappingURL=main.css.map */

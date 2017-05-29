@@ -180,23 +180,24 @@ section {
     height: 400px;
     padding-bottom: 2%;
     .cv-info-section-inner {
-    text-align: center;
-    padding-top:1%; 
-    padding-bottom: 2%;
-    h3 {
-        color: #986754;
         text-align: center;
-        font-weight: bold;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        h3 {
+            color: #986754;
+            text-align: center;
+            font-weight: bold;
+        }
+        .cv-info-context {
+            color: #333;
+            font-weight: lighter;
+            padding-bottom: .25em;
+            line-height: 2em;
+        }
+        padding-bottom: 5%;
     }
-    .cv-info-context {
-        color: #333;
-        font-weight: lighter;
-        padding-bottom: .25em;
-        line-height: 2em;
-    }
-    padding-bottom: 5%;
 }
-}
+
 .cv-info-slide {
     padding-top: 10rem;
     margin: 0;
@@ -204,6 +205,7 @@ section {
         padding-top: 2rem;
     }
 }
+
 .about-us-over {
     background: url(../images/b_17.jpg);
     height: 400px;
@@ -345,15 +347,16 @@ section {
     color: #FFF;
     overflow: auto;
     .cv-testimony-inner {
-	    padding-top: 1%;
+        padding-top: 1%;
         color: #fff;
-        h3{
+        h3 {
             text-align: center;
             font-weight: bold;
             color: #FFF;
         }
     }
 }
+
 .cv-testimony-cover {
     background: #888;
     content: "";
@@ -362,8 +365,8 @@ section {
     overflow: auto;
     width: 100%;
     position: absolute;
-    
 }
+
 .about-page {
     position: relative;
     background: linear-gradient(#156434, darkgreen);
@@ -378,22 +381,25 @@ section {
         font-size: 4em;
     }
 }
+
 .about-us-context {
     margin-top: 2%;
     margin-bottom: 2%;
     line-height: 30px;
     text-align: justify;
 }
-@media (width : 475px) {
+
+@media (width: 475px) {
     .about-page {
-	position: absolute;
-    height: 200px;
-        h2{
+        position: absolute;
+        height: 200px;
+        h2 {
             padding-top: 5%;
             font-size: 2em;
         }
     }
 }
+
 .about-page-bg {
     position: relative;
     background: url(../images/ab-bg.jpg);
@@ -403,8 +409,8 @@ section {
     background-repeat: no-repeat;
     color: #111;
     overflow: auto;
-    
 }
+
 .about-page-cover {
     background: #fff;
     content: " ";
@@ -412,24 +418,54 @@ section {
     min-height: 100%;
     overflow: auto;
     width: 100%;
-    position: absolute;    
+    position: absolute;
 }
+
 .contact-page {
     position: relative;
     background: url(../images/b_17.jpg);
     box-sizing: content-box;
     background-position: right;
     background-size: cover;
-    height: 100%;
+    height: 60%;
     background-repeat: no-repeat;
-    color: aliceblue;
+    h2 {
+        color: #543345;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+    }
 }
+
 .contact-page-cover {
     background: #fff;
     content: " ";
-    opacity: 0.95;
+    opacity: 0.75;
     min-height: 100%;
     overflow: auto;
     width: 100%;
-    position: absolute; 
+    position: absolute;
 }
+
+.contact-inner {
+    position: relative;
+    padding-top: 4rem;
+    height: auto;
+    .form-control {
+        border-radius: 0px !important;
+        box-shadow: none !important;
+    }
+}
+
+.btn {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+.btn-msg {
+    padding: 10px 15px;
+    background: #767588;
+    color: white;
+    border:none;
+    width: 40%;
+}
+

@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteRule ^(logout)/?$ $1.php [NC,L,QSA]
+RewriteRule ^(dashboard)/?$ $1.php [NC,L,QSA]
+RewriteRule ^(recover_password)/?$ $1.php [NC,L,QSA]
+RewriteRule ^(resetpass)/?$ $1.php [NC,L,QSA]
+RewriteRule ^(resetpass)/?$ $1.php [NC,L,QSA]
+RewriteRule ^pages/([A-Za-z0-9\-_]+)/?$ pages/$1.php [NC,L,QSA]
+RewriteRule ^pages/error/([A-Za-z0-9\-_]+)/?$ pages/error/$1.php [NC,L,QSA]
+RewriteRule ^pages/model/([A-Za-z0-9\-_]+)/?$ pages/model/$1.php [NC,L,QSA]
+RewriteRule ^pages/view_application/([A-Za-z0-9\-_\.]+)/?$ pages/view_application.php?id=$1 [NC,L]
+errorDocument 404 http://localhost/nwt-app/admin/pages/error/pagenotfound
+</IfModule>
