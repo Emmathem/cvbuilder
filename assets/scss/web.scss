@@ -12,11 +12,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
 ::-webkit-scrollbar {
     display: none;
 }
-
 .nav,
 nav {
     ul {
@@ -43,19 +41,32 @@ nav {
         background: none !important;
     }
 }
-
+nav {
+    transition-duration: .9s;
+    .navbar-brand {
+        background: url(../images/cvb-logo.png) no-repeat center;
+        background-size: contain;
+    }
+    .navlink {
+        color: #fff;
+    }
+}
 .navbar {
     background: #fff;
     min-height: 4.0em;
     padding: 5px 5px;
 }
-
+.navbar-brand {
+    margin: 0.81em;
+    width: 120px;
+    height: 30px;
+    background: url(../images/cvb-logo.png);
+}
 section {
     position: relative;
     display: flex;
     flex-direction: column;
 }
-
 #footer {
     bottom: 0;
     width: 100%;
@@ -63,13 +74,11 @@ section {
     background-color: #111;
     color: #fff;
 }
-
 .header-wrapper-carousel {
     overflow: auto;
     width: 100vm;
     margin-top: 2%;
 }
-
 .navbar-wrapper {
     position: absolute;
     left: 0;
@@ -84,11 +93,9 @@ section {
         }
     }
 }
-
 .header {
     width: 100%;
 }
-
 .item {
     position: relative;
     overflow: auto;
@@ -96,6 +103,17 @@ section {
         display: block;
         z-index: 10000000000000;
         color: white;
+        .cv-div::after {
+            background: none;
+            width: 100%;
+            pargin-top: 30vh;
+            h3 {
+                font-weight: bold;
+                text-transform: capitalize;
+                color: white;
+                text-shadow: #111 2px 1px 2px;
+            }
+        }
         h4 {
             padding-top: 20vh;
             padding-bottom: 10vh;
@@ -117,7 +135,6 @@ section {
         }
     }
 }
-
 #item-1 {
     background: url(../images/bg_12.jpeg);
     background-size: cover;
@@ -128,7 +145,6 @@ section {
     padding-top: 0em;
     width: 100%;
 }
-
 #item-2 {
     background: url(../images/bg_11.jpg);
     background-size: cover;
@@ -139,7 +155,6 @@ section {
     padding-top: 0em;
     width: 100%;
 }
-
 #item-3 {
     background: url(../images/bg-13.jpeg);
     background-size: cover;
@@ -149,7 +164,6 @@ section {
     padding-top: 0em;
     width: 100%;
 }
-
 .slide-cover {
     background: #000;
     content: "";
@@ -159,7 +173,6 @@ section {
     width: 100%;
     position: absolute;
 }
-
 .btn-get-start {
     background: #FFF;
     border: 1px solid #056786;
@@ -167,13 +180,11 @@ section {
     boder: 1px solid #056786;
     color: #056786;
 }
-
 .btn-get-start:hover {
     background-color: #056786;
     padding: 8px 8px;
     color: #FFF;
 }
-
 .cv-info-section {
     position: relative;
     margin: auto;
@@ -197,7 +208,6 @@ section {
         padding-bottom: 5%;
     }
 }
-
 .cv-info-slide {
     padding-top: 10rem;
     margin: 0;
@@ -205,9 +215,8 @@ section {
         padding-top: 2rem;
     }
 }
-
 .about-us-over {
-    background: url(../images/b_17.jpg);
+    background: url(../images/ab-bg.jpg);
     height: 400px;
     position: relative;
     box-sizing: content-box;
@@ -234,7 +243,6 @@ section {
         }
     }
 }
-
 .about-us-cover {
     background: #785658;
     content: "";
@@ -244,26 +252,12 @@ section {
     width: 100%;
     position: absolute;
 }
-
 .cv-image {
     background: url('../images/b_1.jpg');
     background-repeat: no-repeat;
     float: left;
     margin: 0;
 }
-
-.cv-div {
-    background: none;
-    width: 100%;
-    position: relative;
-    h3 {
-        font-weight: bold;
-        text-transform: capitalize;
-        color: white;
-        text-shadow: #111 2px 1px 2px;
-    }
-}
-
 .cv-btn {
     padding: 15px 15px;
     border-radius: 2px;
@@ -278,27 +272,21 @@ section {
         width: 3vw;
     }
 }
-
 .cv-btn-1 {
     border: 1px solid #957675;
 }
-
 .cv-btn-2 {
     border: 1px solid #5334f2;
 }
-
 .cv-btn-3 {
     border: 1px solid #987423;
 }
-
 .cv-updates {
-
     height: 500px;
     margin: auto;
     width: 100%;
     overflow: hidden;
 }
-
 .cv-updates-inner {
     position: absolute;
     width: 100%;
@@ -309,7 +297,6 @@ section {
         font-weight: bold;
     }
 }
-
 .cv-update-form {
     border-radius: 0px !important;
     box-shadow: none !important;
@@ -318,7 +305,6 @@ section {
     width: 30vw;
     display: block;
 }
-
 .btn-cv {
     background: #734353;
     color: white;
@@ -327,7 +313,6 @@ section {
     padding: 10px;
     border: 1px solid #734353;
 }
-
 .cv-image-update {
     background-position: center;
     background-repeat: no-repeat;
@@ -335,7 +320,6 @@ section {
     background-origin: content-box;
     height: 100%;
 }
-
 .cv-testimony {
     position: relative;
     background: url(../images/handup.jpg);
@@ -356,7 +340,19 @@ section {
         }
     }
 }
-
+.art {
+    padding: 10px 15px;
+    color: white;
+    margin-left: 8rem;
+    a {
+        color: white;
+        font-weight: bold;
+    }
+    a:hover {
+        color: none;
+        text-decoration: none;
+    }
+}
 .cv-testimony-cover {
     background: #888;
     content: "";
@@ -366,7 +362,6 @@ section {
     width: 100%;
     position: absolute;
 }
-
 .about-page {
     position: relative;
     background: linear-gradient(#156434, darkgreen);
@@ -381,14 +376,12 @@ section {
         font-size: 4em;
     }
 }
-
 .about-us-context {
     margin-top: 2%;
     margin-bottom: 2%;
     line-height: 30px;
     text-align: justify;
 }
-
 @media (width: 475px) {
     .about-page {
         position: absolute;
@@ -399,7 +392,6 @@ section {
         }
     }
 }
-
 .about-page-bg {
     position: relative;
     background: url(../images/ab-bg.jpg);
@@ -410,7 +402,6 @@ section {
     color: #111;
     overflow: auto;
 }
-
 .about-page-cover {
     background: #fff;
     content: " ";
@@ -420,7 +411,10 @@ section {
     width: 100%;
     position: absolute;
 }
-
+.inner-image {
+   padding: 13rem;
+    margin-left: 12rem;
+}
 .contact-page {
     position: relative;
     background: url(../images/b_17.jpg);
@@ -437,7 +431,6 @@ section {
         font-size: 4em;
     }
 }
-
 .contact-page-cover {
     background: #111;
     content: " ";
@@ -447,7 +440,6 @@ section {
     width: 100%;
     position: absolute;
 }
-
 .contact-inner {
     position: relative;
     padding-top: 4rem;
@@ -457,7 +449,6 @@ section {
         box-shadow: none !important;
     }
 }
-
 .btn {
     border-radius: 0px !important;
     box-shadow: none !important;
@@ -466,10 +457,10 @@ section {
     padding: 10px 15px;
     background: #767588;
     color: white;
-    border:none;
+    border: none;
     width: 40%;
 }
-.detail{
+.detail {
     margin-right: 3.5rem;
     height: inherit;
     border-right: 2px solid #866587;
@@ -486,4 +477,8 @@ section {
         padding: 10px 15px;
         height: 400px;
     }
+}
+.article-main, .side {
+    border:1px solid #578686;
+    height: 100%;
 }

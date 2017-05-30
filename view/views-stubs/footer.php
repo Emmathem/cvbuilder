@@ -25,20 +25,6 @@
     wow.init();
 
 </script>
-<script>
-$(document).ready(function($) {
-
-			$(".header-wrapper-carousel").owlCarousel({
-
-				navigation : true, 
-				slideSpeed : 300,
-				paginationSpeed : 500,
-				singleItem:true,
-				autoPlay : 4000
-			});
-
-		});
-</script>
 <script src="assets/javascript/jquery.min.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="assets/javascript/bootstrap.min.js"></script>

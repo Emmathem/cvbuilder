@@ -32,7 +32,7 @@
 <div class="item" id="item-3" data-owl-index="3">
     <div class="slide-cover"></div>
     <div class="col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-10 col-xs-offset-1 hwc-inner">
-        <h4 class="animated" data-wow-duration="2.7s" data-wow-delay=".6s" id="h4-item-2">
+        <h4 class="animated" data-wow-duration="2.7s" data-wow-delay=".6s" id="h4-item-3">
             Let Us Help Develop your Resume in Matching youe prefer Job. We are professional.
         </h4>
     </div>
