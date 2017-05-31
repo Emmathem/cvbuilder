@@ -9,8 +9,7 @@ $(function () {
         animateOut: 'fadeOut'
     });
 
-
-    var afterslider = $(".b-mid");
+    var afterslider = $(".cv-fact");
 
     afterslider.owlCarousel({
         items: 1,

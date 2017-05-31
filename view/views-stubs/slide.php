@@ -16,8 +16,6 @@
             </div>
         </h4>
     </div>
-    <div class="col-md-6 text-center col-sm-4 col-xs-12 hwc-inner">
-    </div>
 </div>
 
 <div class="item" id="item-2" data-owl-index="2">

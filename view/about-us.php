@@ -1,7 +1,8 @@
 <?php include 'views-stubs/header.php'; ?>
     <section class = "about-page">
-       
-        <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".6s"><div class = "inner-image"><img  src = "<? echo LINK_PREFIX; ?>assets/images/ab-12-1.png"></div></div>
+        <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".4s">
+            <h2>About Us</h2>
+        </div>
     </section>
     <section id = "about" class="about-us-inner about-page-bg">
       <div class="about-page-cover"></div>
