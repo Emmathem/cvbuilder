@@ -1,4 +1,4 @@
 # cvbuilder
-# This websites give the details on how to develop your Resume in a professional way
-# Also the site is a avenue where you can meet with professional to review and design your new
-# You can also create you page where you safe your CV for later review
+# This website gives details on how to develop your Resumée in a professional way
+# Also the site provides an avenue where you can meet with professionals to review and design your new resume
+# You can also create your page where you save your CV for later review
