@@ -1,0 +1,150 @@
+/* Developed by 
+* Falua Temitope Oyewole
+* Planet Nest
+* 31-05-2017
+*/
+
+@import "_partials/vars";
+@import "_partials/mixins";
+@import "_partials/fonts";
+body {
+    background: $theme-white;
+    @include font-opensans;
+    font-weight: lighter;
+    height: auto;
+}
+@include headers {
+    @include font-lato;
+    font-weight: lighter
+}
+.manage-wrapper {
+    width: 96%;
+    margin: 40px auto 10px;
+    h4 {
+        font-size: 1.3em;
+        color: $theme-black;
+    }
+    h3 {
+        font-size: 1.8em;
+        color: $theme-deepblue;
+        font-weight: lighter;
+    }
+    span {
+        font-size: .9em;
+        color: $theme-deepblue;
+        font-weight: lighter;
+    }
+    .panel {
+        margin: 8px auto;
+        border: none;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+    }
+    .panel-primary {
+        border: none !important;
+    }
+    .fa {
+        padding-left: 8px;
+    }
+    .table {
+        border-top: none;
+        overflow-y: auto;
+    }
+    @media(width : 315px) {
+        .table {
+        width: 50%;
+    }
+    }
+    .panel-heading {
+        background: $theme-white;
+        padding: 10px 15px !important;
+        color: #777;
+        text-align: center;
+        border: none;
+        border-radius: 0px;
+    }
+    .panel-title {
+        padding: 15px 10px;
+    }
+    .panel-body {
+        padding: 0px !important;
+    }
+    .form-control {
+        border-radius: 0px !important;
+        border: none;
+        border-bottom: 1px solid $theme-blue;
+        padding: 1.4em .8em;
+        text-align: left;
+        height: 4.3rem;
+        box-shadow: none !important;
+        outline: none !important;
+        background: none !important;
+    }
+    .input-group-addon {
+        outline: none !important;
+        border-radius: 0px !important;
+        border-bottom: 1px solid $theme-blue !important;
+        background: none;
+        border-top: none;
+        border-left: none;
+        padding: 0px 5px 2px 2px!important;
+        border: none;
+    }
+    .form-control:disabled {
+        background: #fff !important;
+    }
+    .pad {
+        padding-top: 4rem;
+    }
+    .btn {
+        border-radius: 0px;
+        border: none;
+    }
+    .btn-sm {
+        min-width: 30px !important;
+    }
+    .btn-primary {
+        background: $theme-blue;
+    }
+    .btn-success {
+        background: $theme-deepblue;
+    }
+    .btn-danger {
+        background: $theme-red;
+        min-width: 45px !important;
+    }
+    .alert {
+        padding: 1.32em 1.34em;
+    }
+    .alert-success {
+        color: $theme-deepblue;
+    }
+    .alert-danger {
+        color: $theme-red;
+    }
+    .fa-trash {
+        color: $theme-red;
+    }
+    .fa-edit {
+        color: $theme-deepblue;
+    }
+    .modal-dialog {
+        width: 360px !important;
+        position: relative;
+    }
+    .modal-content {
+        border: none;
+        border-radius: 0px !important;
+        height: auto;
+        padding: 5px 8px;
+    }
+    .modal-footer {
+	border-top: 0px !important;
+}
+    .close {
+        font-size: 18px;
+        padding:0px;
+        margin-bottom: 7px;
+        margin-top: -20px;
+    }
+}

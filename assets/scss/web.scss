@@ -55,6 +55,7 @@ nav {
     }
 }
 
+
 .navbar {
     background: #fff;
     min-height: 4.0em;
@@ -66,9 +67,12 @@ nav {
     width: 120px;
     height: 30px;
     background: url(../images/cvb-logo.png);
-}.wow {
+}
+
+.wow {
     visibility: hidden;
 }
+
 section {
     position: relative;
     display: flex;
@@ -78,9 +82,13 @@ section {
 #footer {
     bottom: 0;
     width: 100%;
-    min-height: 4.5em;
-    background-color: #111;
+    position: relative;
+    min-height: 3.5em;
     color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    background: #111;
+    z-index: 9999999;
 }
 
 .header-wrapper-carousel {
@@ -146,17 +154,20 @@ section {
         }
     }
 }
+
 @media(min-width: 425px) {
     .item .hwc-inner h4 {
         font-size: 17px;
         padding-top: 6em;
     }
 }
-@media (width : 395px) {
+
+@media (width: 395px) {
     .cv-div {
         width: 70%;
     }
 }
+
 #item-1 {
     background: url(../images/bg_12.jpeg);
     background-size: cover;
@@ -228,6 +239,7 @@ section {
         }
     }
 }
+
 .cv-info-section {
     position: relative;
     margin: auto;
@@ -251,6 +263,7 @@ section {
         padding-bottom: 5%;
     }
 }
+
 .cv-inner-info {
     padding: .5em .15em;
     overflow: auto;
@@ -262,6 +275,7 @@ section {
         font-weight: 100;
     }
 }
+
 .cv-info-slide {
     padding-top: 9rem;
     margin-left: 2%;
@@ -301,6 +315,7 @@ section {
         font-size: 5em;
     }
 }
+
 .about-us-over {
     background: url(../images/ab-bg.jpg);
     height: 400px;
@@ -520,9 +535,9 @@ section {
 .inner-image {
     padding: 13rem;
     margin-left: 12rem;
-    @media (width : 465px) {
+    @media (width: 465px) {
         .inner-image {
-	        margin-left: 2rem;
+            margin-left: 2rem;
             width: 30%;
         }
     }
@@ -582,11 +597,15 @@ section {
     margin-right: 3.5rem;
     margin-bottom: 2rem;
     height: auto;
-    border-right: 2px solid #866587;
-    border-bottom: 2px solid #866587;
+    border-right: 2px solid #866587; //border-bottom: 2px solid #866587;
     h3 {
         font-size: 1.54em;
         color: black;
+        border-bottom: 5px solid #111;
+        display: block;
+        h3::after {
+            background: #fff;
+        }
     }
     .contact-address {
         display: block;
@@ -597,19 +616,22 @@ section {
         padding: 10px 15px;
     }
 }
-@media(width : 475px) {
-    .contact-address{
-            height: 200px;
-            padding: 1.34em 1.76em;
-            display: block;
-            position: relative;
-        }
+
+@media(width: 475px) {
+    .contact-address {
+        height: 200px;
+        padding: 1.34em 1.76em;
+        display: block;
+        position: relative;
+    }
 }
+
 .article-main,
 .side {
     border: 1px solid #578686;
     height: 100%;
 }
+
 .fact-section {
     @media(min-width: 769px) {
         max-width: 75%;
@@ -632,5 +654,47 @@ section {
         line-height: 2.5em;
         color: white;
         font-size: 5em;
+    }
+}
+
+.error-section {
+    width: 100%;
+    background: url(../images/lozt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.error-cover {
+    background: purple;
+    content: " ";
+    opacity: 0.75;
+    min-height: 100%;
+    overflow: auto;
+    width: 100%;
+    position: absolute;
+}
+
+.error-content {
+    margin: 20% auto;
+    line-height: 30px;
+    text-align: center;
+    span {
+        padding: 10rem auto;
+        font-size: 2.43em;
+        color: white;
+    }
+    h2 {
+        color: white;
+        font-stretch: expanded;
+        font-style: italic;
+        font-weight: lighter;
+    }
+}
+
+@media(width: 400px) {
+    .error-content {
+        margin: 40% auto;
     }
 }

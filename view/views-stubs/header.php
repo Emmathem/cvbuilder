@@ -14,6 +14,7 @@ require_once __DIR__ . '/title.inc.php';
     <link rel="stylesheet" href="<? echo LINK_PREFIX; ?>assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="<? echo LINK_PREFIX; ?>assets/css/owl.theme.default.min.css">
     <link rel = "stylesheet" href = "<? echo LINK_PREFIX; ?>assets/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "<? echo LINK_PREFIX; ?>assets/css/manage.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400|Open+Sans:100,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
@@ -46,7 +47,7 @@ require_once __DIR__ . '/title.inc.php';
                         <li>
                             <form class="navbar-form navbar-left" role="search">
                                 <div class="form-group">
-                                    <a href="" type="submit" class="btn btn-get-start" id="sign-in-btn-1">Click Here To Get Started</a>
+                                    <a href="getstarted" type="submit" class="btn btn-get-start" id="sign-in-btn-1">Click Here To Get Started</a>
                                 </div>
                                 
                             </form>

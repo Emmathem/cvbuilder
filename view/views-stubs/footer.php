@@ -1,4 +1,4 @@
-<div id="footer" class="footer panel-footer">
+<div id="footer" class="">
     <div class="container">
         <p class="text-muted">CvBuilder | Emmathem Media Company</p>
         <p class="text-muted">&copy;

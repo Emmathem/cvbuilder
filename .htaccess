@@ -6,8 +6,13 @@ RewriteRule ^login/?$ login.php [NC,L,QSA]
 RewriteRule ^about-us/?$ view/about-us.php [NC,L,QSA]
 RewriteRule ^contact/?$ view/contact.php [NC,L,QSA]
 RewriteRule ^articles/?$ view/articles.php [NC,L,QSA]
+RewriteRule ^getstarted/?$ view/getstarted.php [NC,L,QSA]
 RewriteRule ^logout/?$ logout.php [NC,L,QSA]
 RewriteRule ^dashboard/?$ dashboard.php [NC,L,QSA]
 RewriteRule ^download/?$ download.php [NC,L,QSA]
+
+errorDocument 404 http://localhost/cvbuilder/view/error/pagenotfound.php 
+
+
 
 </IfModule>

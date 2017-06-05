@@ -2,74 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43d7aa52-7491-4355-9046-df141b9dc23a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/04436662c22972772ef5cb1901a67c6012df7c3e/web.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/android-chrome-384x384.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/mstile-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/._.DS_Store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/42-16008852.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/b_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/b_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-13.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_12.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_13.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_14.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg_3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/black.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/dano.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/girl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dano.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/fontawesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/web.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/favicons/safari-pinned-tab.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/bootstrap-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/chart-data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/datatables.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/dean-counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/lumino.glyphs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/other.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/text-counter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/text-counter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascript/wow.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/scss/web.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fd016c55d9d888d3e2b2ff9c07576a4ec4e4a525/web.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fd016c55d9d888d3e2b2ff9c07576a4ec4e4a525/web.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/web.css" afterPath="$PROJECT_DIR$/assets/css/web.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/web.css.map" afterPath="$PROJECT_DIR$/assets/css/web.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/web.scss" afterPath="$PROJECT_DIR$/assets/scss/web.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/contact.php" afterPath="$PROJECT_DIR$/view/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/views-stubs/footer.php" afterPath="$PROJECT_DIR$/view/views-stubs/footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,11 +36,8 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1156">
-              <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-              <folding>
-                <marker date="1496075951854" expanded="true" signature="5200:5214" ph="..." />
-                <marker date="1496075951854" expanded="true" signature="5200:5216" ph="..." />
-              </folding>
+              <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../m/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+            <state relative-caret-position="2499">
+              <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -176,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,12 +128,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../digischools-superadmin" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,11 +160,13 @@
       <workItem from="1495790935352" duration="4700000" />
       <workItem from="1495996001992" duration="2608000" />
       <workItem from="1496057379665" duration="2064000" />
+      <workItem from="1496242289441" duration="53000" />
+      <workItem from="1496321802851" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9372000" />
+    <option name="totallyTimeSpent" value="9986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,7 +178,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13762811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -274,12 +213,57 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/web.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="147" column="34" lean-forward="true" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="10" lean-forward="true" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/web.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../m/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-          <folding>
-            <marker date="1496075951854" expanded="true" signature="5200:5214" ph="..." />
-            <marker date="1496075951854" expanded="true" signature="5200:5216" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -303,10 +287,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <marker date="1496075951854" expanded="true" signature="5200:5214" ph="..." />
-            <marker date="1496075951854" expanded="true" signature="5200:5216" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -339,11 +320,8 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
-          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding>
-            <marker date="1496075951854" expanded="true" signature="5200:5214" ph="..." />
-            <marker date="1496075951854" expanded="true" signature="5200:5216" ph="..." />
-          </folding>
+          <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -357,8 +335,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../m/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        <state relative-caret-position="2499">
+          <caret line="147" column="34" lean-forward="false" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
           <folding />
         </state>
       </provider>
