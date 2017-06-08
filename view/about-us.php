@@ -1,5 +1,6 @@
 <?php include 'views-stubs/header.php'; ?>
     <section class = "about-page">
+       <div class = "a-c"></div>
         <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".4s">
             <h2>About Us</h2>
         </div>

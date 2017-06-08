@@ -16,9 +16,9 @@ $_HOST = $_DBNAME = $_UNAME = $_PWD = '';
 
 #!- initial values
 $_HOST = 'localhost';
-$_DBNAME = 'nwt-portal';
+$_DBNAME = 'cvbuilder';
 $_UNAME = 'root';
-$_PWD = '';
+$_PWD = 'engineer';
 
 #!- make your specific inclusions here
 switch (SCOPE) {

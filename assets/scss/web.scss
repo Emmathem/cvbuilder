@@ -244,7 +244,7 @@ section {
     position: relative;
     margin: auto;
     height: 250px;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     .cv-info-section-inner {
         text-align: center;
         padding-top: 1%;
@@ -480,7 +480,11 @@ section {
 
 .about-page {
     position: relative;
-    background: linear-gradient(#156434, darkgreen);
+    background: url(../images/ab-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover;
+    //background: linear-gradient(#787867, #843465);
     height: 400px;
     color: #FFF;
     overflow: auto;
@@ -490,7 +494,18 @@ section {
         font-weight: bold;
         color: #fff;
         font-size: 4em;
+        text-shadow: #111 2px 3px 2px;
+        position: relative;
     }
+}
+.a-c {
+    background: #888;
+    content: "";
+    opacity: 0.69;
+    min-height: 100%;
+    overflow: auto;
+    width: 100%;
+    position: absolute;
 }
 
 .about-us-context {
@@ -516,7 +531,7 @@ section {
     background: url(../images/ab-bg.jpg);
     box-sizing: content-box;
     background-position: center;
-    background-size: cover;
+
     background-repeat: no-repeat;
     color: #111;
     overflow: auto;
@@ -606,6 +621,11 @@ section {
         h3::after {
             background: #fff;
         }
+    }
+    ::after {
+        content: "  ";
+        color: aqua;
+        background: white;
     }
     .contact-address {
         display: block;
