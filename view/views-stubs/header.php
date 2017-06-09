@@ -43,6 +43,7 @@ require_once __DIR__ . '/title.inc.php';
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="navlink scroll-to" href="<? echo LINK_PREFIX; ?>">Home</a></li>
                         <li><a href="<? echo LINK_PREFIX; ?>#about" class="navlink scroll-to">About</a></li>
+                        <li><a href ="<? echo LINK_PREFIX; ?>blog">Blog</a></li>
                         <li><a href="<? echo LINK_PREFIX; ?>contact" class="navlink scroll-to">Contact</a></li>
                         <li>
                             <form class="navbar-form navbar-left" role="search">

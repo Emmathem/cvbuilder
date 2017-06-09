@@ -8,7 +8,7 @@
 <!-- Page Content -->
 
 
-<script src="assets/javascript/wow.min.js"></script>
+<script src="<? echo LINK_PREFIX; ?>assets/javascript/wow.min.js"></script>
 <script>
     var wow = new WOW({
         boxClass: 'wow', // animated element css class (default is wow)
@@ -25,11 +25,11 @@
     wow.init();
 
 </script>
-<script src="assets/javascript/jquery.min.js"></script>
+<script src="<? echo LINK_PREFIX; ?>assets/javascript/jquery.min.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="assets/javascript/bootstrap.min.js"></script>
-<script src="assets/javascript/owl.carousel.min.js"></script>
-<script src="assets/javascript/main.js"></script>
+<script src="<? echo LINK_PREFIX; ?>assets/javascript/bootstrap.min.js"></script>
+<script src="<? echo LINK_PREFIX; ?>assets/javascript/owl.carousel.min.js"></script>
+<script src="<? echo LINK_PREFIX; ?>assets/javascript/main.js"></script>
 </body>
 
 </html>

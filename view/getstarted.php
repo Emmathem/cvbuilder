@@ -47,6 +47,10 @@
                                     </button>
                                 <a data-toggle="modal" data-target="#myModal" href="#myModal" href="">Already have an account?</a>
                             </div>
+                            <div class = "form-group">
+                                Sign Up with your
+
+                            </div>
                         </form>
                     </div>
                 </div>

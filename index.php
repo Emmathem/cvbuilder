@@ -58,8 +58,9 @@
                     <div class="form-group">
                         <label class="sr-only">Email address</label>
                         <input type="email" class="cv-update-form" placeholder="Enter Your Email Address">
-                    </div>
+
                     <button type="submit" class="btn btn-cv">Submit</button>
+                    </div>
                 </form>
                 <div class="cv-image-update wow fadeIn" data-wow-duration=".9s" data-wow-delay=".9s">
                     <img src="assets/images/bg_18.jpg">
