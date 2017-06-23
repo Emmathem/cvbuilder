@@ -1,0 +1,21 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "**.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "compressed",
+                "sourceMap": ""
+            },
+            "noDistractions": true,
+            "linting.collapsed": false,
+            "fonts.fontSize": "12px",
+            "hirse.outline.enabled": false,
+            "brackets-git.gitPath": "git",
+            "useTabChar": false
+        }
+    }
+}

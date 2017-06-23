@@ -1,9 +1,13 @@
-/***This stylesheet is developed
-* by
+/***Developed by
 * FALUA TEMITOPE OYEWOLE
+* faluatemitopeo@gmail.com
+* Web Developer, Emmathem Media Company,
+* Planet Nest
 * 27TH OF MAY, 2017
 */
-
+@import "_partials/vars";
+@import "_partials/mixins";
+@import "_partials/fonts";
 html,
 body {
     height: 100%;
@@ -724,6 +728,45 @@ section {
     }
 }
 
+.login-container-2 {
+    margin: 6rem auto 0;
+    padding: 15px;
+
+    width: 100%;
+    border-color: $theme-deepblue;
+    border: 1px solid transparent;
+    .form-control {
+        padding: 1.63em 1.24em;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        border-color: transparent;
+        height: 2.3em;
+        border: 1px solid $theme-sleekblack;
+        border-left: none;
+    }
+    .input-group-addon {
+        background: none;
+        border-radius: 0;
+        border: 1px solid $theme-sleekblack;
+        border-right: none;
+    }
+    .btn {
+        border-radius: 0px;
+    }
+    .btn-submit {
+        background: $theme-white;
+        color: $theme-black;
+        padding: 1em 1em;
+        width: 50%;
+    }
+    .btn-submit:hover {
+        color: $theme-p-white;
+        background: $theme-blue;
+    }
+}
+.social-login {
+    margin-top: 1rem;
+}
 @media(width: 400px) {
     .error-content {
         margin: 40% auto;

@@ -1,17 +1,13 @@
 <?php include 'views-stubs/header.php'; ?>
-<section class="contact-page">
-    <div class="contact-page-cover"></div>
-    <div class="contact-inner wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".4s">
-        <h2>You Need An Account To Start</h2>
-    </div>
-</section>
 <section id="contact" class="">
-    <div>
-        <div class="col-md-offset-1 col-sm-12 col-md-11">
-            <div class="manage-wrapper">
 
-                <div class="col-md-7">
-                    <div class="col-md-9">
+       <div class="col-lg-offset-3 col-lg-6 col-sm-6 col-md-6">
+       <div class = "panel-heading animated fadeInDown">You Need An Account to Get Started</div>
+        <div class="login-container-2">
+            <div class="panel panel-primary">
+                <div class="panel-body">
+
+                     <div class="col-md-12">
                         <form class="add-admin-form" action="" method="POST">
                             <div class="form-group">
                                 <label class="control-label sr-only">Fullname</label>
@@ -43,58 +39,27 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-primary" type="submit" name="add-super-admin">Register
-                                    </button>
-                                <a data-toggle="modal" data-target="#myModal" href="#myModal" href="">Already have an account?</a>
+                                <button class="btn btn-primary btn-submit" type="submit" name="submit">Register</button>
+                                <a href="" href="">Already have an account?</a>
                             </div>
                             <div class = "form-group">
-                                Sign Up with your
-
+                               <div class = "social-login">
+                                Sign Up with
+                                <div class = "row container">
+                                    <div class="col-sm-3"><i class = "fa fa-facebook"></i>Facebook</div>
+                                    <div class="col-sm-3"><i class = "fa fa-twitter"></i>Twitter</div>
+                                    <div class="col-sm-3"><i class = "fa fa-google-plus"></i>GooglePlus</div>
+                                </div>
+                            </div>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="contact-page"></div>
                 </div>
-                <!--Change Password Modal Box-->
-                <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Login to your account <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>                   </button></h5>
-                            </div>
-                            <div class="modal-body">
-                                <form class="form-horizontal change-pswd-form" action="" method="post">
-                                    <div class="form-group" id="spwd">
-                                        <label class="control-label sr-only">Email Address</label>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-key"></i> </span>
-                                            <input type="email" class="form-control" placeholder="Enter Your Email Address" name="userpass">
-                                            <span class="input-group-addon"><i class="fa fa-envelop"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group" id="spwd">
-                                        <label class="control-label sr-only">Confirm Password</label>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-key"></i> </span>
-                                            <input type="password" class="form-control" placeholder="Enter Your Password" name="userpass">
-                                            <span class="input-group-addon"><a href='#'><i class="fa fa-eye"></i></a> </span>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <a href="getstarted">Create An Account</a> <button type="submit" name="login" class="btn btn-success">Login to your account</button>
-                                        <br>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end of modal-->
             </div>
         </div>
+    <div>
+
     </div>
 </section>
 
