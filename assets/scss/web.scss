@@ -15,6 +15,7 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -85,12 +86,14 @@ section {
 
 #footer {
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
-    position: relative;
-    min-height: 3.5em;
+    position: absolute;
+    min-height: 1.5em;
     color: #fff;
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
     background: #111;
     z-index: 9999999;
 }
@@ -416,16 +419,16 @@ section {
     box-shadow: none !important;
     border: 1px solid #734353;
     padding: 10px 15px;
-    width: 30vw;
-    display: block;
+    width: 100%;
 }
 
 .btn-cv {
     background: #734353;
-    color: white;
-    width: 10%;
+    color: white !important;
+    width: 80%;
     border-radius: 0px !important;
     padding: 10px;
+    margin-top: 2px;
     border: 1px solid #734353;
 }
 
@@ -514,7 +517,7 @@ section {
 
 .about-us-context {
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 20%;
     line-height: 30px;
     text-align: justify;
 }
@@ -766,6 +769,26 @@ section {
 }
 .social-login {
     margin-top: 1rem;
+    background: $theme-blue;
+    padding: 5px;
+    height: auto;
+    h2 {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    .btn-div {
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 100%;
+        float: right;
+        display: inline-block;
+    }
+    .btn-facebook {
+        background: $theme-blue;
+        color: $theme-p-white;
+        padding: 1em 1.2em;
+    }
 }
 @media(width: 400px) {
     .error-content {

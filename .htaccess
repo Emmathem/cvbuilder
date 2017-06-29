@@ -2,14 +2,14 @@
 RewriteEngine On
 
 RewriteRule ^apply/?$ apply.php [NC,L,QSA]
-RewriteRule ^login/?$ login.php [NC,L,QSA]
+RewriteRule ^login/?$ view/login.php [NC,L,QSA]
 RewriteRule ^about-us/?$ view/about-us.php [NC,L,QSA]
 RewriteRule ^contact/?$ view/contact.php [NC,L,QSA]
 RewriteRule ^blog/?$ view/articles.php [NC,L,QSA]
 RewriteRule ^getstarted/?$ view/getstarted.php [NC,L,QSA]
 RewriteRule ^logout/?$ logout.php [NC,L,QSA]
-RewriteRule ^dashboard/?$ dashboard.php [NC,L,QSA]
 RewriteRule ^download/?$ download.php [NC,L,QSA]
+RewriteRule ^dashboard/?$ view/dashboard.php [NC,L,QSA]
 
 RewriteRule ^pagenotfound/?$ view/error/pagenotfound.php [NC,L,QSA]
 errorDocument 404 http://localhost/cvbuilder/pagenotfound

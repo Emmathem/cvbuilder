@@ -26,8 +26,10 @@
 
 </script>
 <script src="<? echo LINK_PREFIX; ?>assets/javascript/jquery.min.js"></script>
+<script src = "<?= LINK_PREFIX; ?>assets/javascript/sidebar_menu.js"></script>
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="<? echo LINK_PREFIX; ?>assets/javascript/bootstrap.min.js"></script>
+
 <script src="<? echo LINK_PREFIX; ?>assets/javascript/owl.carousel.min.js"></script>
 <script src="<? echo LINK_PREFIX; ?>assets/javascript/main.js"></script>
 </body>
