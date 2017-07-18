@@ -1,0 +1,820 @@
+/***Developed by
+* FALUA TEMITOPE OYEWOLE
+* faluatemitopeo@gmail.com
+* Web Developer, Emmathem Media Company,
+* Planet Nest
+* 27TH OF MAY, 2017
+*/
+/**
+ * ensures that vertically aligned children don't appear blurry
+ */
+/**
+ * vertically aligns an element
+ */
+/*
+    Keyframes
+    Credits: https://gist.github.com/Integralist/3931680
+*/
+/*
+    Transform
+    Credits: https://codepen.io/sawmac/pen/qGudy/
+*/
+/*
+    Style placeholder
+    Credits: http://stackoverflow.com/questions/17181849/placeholder-mixin-scss-css
+*/
+/* Fonts are defined herein */
+/* line 11, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+/* line 21, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+::-webkit-scrollbar {
+  display: none; }
+
+/* line 27, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.nav ul,
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 32, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.nav li,
+nav li {
+  display: block; }
+  /* line 34, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .nav li .navlink:active,
+  .nav li .navlink:hover,
+  .nav li .navlink:focus,
+  nav li .navlink:active,
+  nav li .navlink:hover,
+  nav li .navlink:focus {
+    background: none;
+    color: #888 !important; }
+
+/* line 41, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.nav a,
+nav a {
+  display: block;
+  padding: 6px 6px;
+  text-decoration: none;
+  color: purple; }
+
+/* line 47, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.nav .active,
+nav .active {
+  background: none !important; }
+
+/* line 52, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+nav {
+  transition-duration: .9s; }
+  /* line 54, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  nav .navbar-brand {
+    background: url(../images/cvb-logo.png) no-repeat center;
+    background-size: contain; }
+  /* line 58, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  nav .navlink {
+    color: #fff; }
+
+/* line 64, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.navbar {
+  background: #fff;
+  min-height: 4.0em;
+  padding: 5px 5px; }
+
+/* line 70, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.navbar-brand {
+  margin: 0.81em;
+  width: 120px;
+  height: 30px;
+  background: url(../images/cvb-logo.png); }
+
+/* line 77, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.wow {
+  visibility: hidden; }
+
+/* line 81, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+
+/* line 87, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+#footer {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  min-height: 1.5em;
+  color: #fff;
+  margin: 0 auto;
+  padding: 5px;
+  background: #111;
+  z-index: 9999999; }
+
+/* line 101, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.header-wrapper-carousel {
+  overflow: auto;
+  width: 100vm;
+  margin-top: 2%; }
+
+/* line 107, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.navbar-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 20; }
+  /* line 112, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .navbar-wrapper .container {
+    padding-right: 0;
+    padding-left: 0; }
+    /* line 115, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .navbar-wrapper .container .navbar {
+      padding-right: 15px;
+      padding-left: 15px; }
+
+/* line 122, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.header {
+  width: 100%; }
+
+/* line 126, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.item {
+  position: relative;
+  overflow: auto; }
+  /* line 129, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .item .hwc-inner {
+    display: block;
+    z-index: 10000000000000;
+    color: white; }
+    /* line 133, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .item .hwc-inner .cv-div::after {
+      background: none;
+      width: 100%;
+      padding-top: 30vh; }
+      /* line 137, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+      .item .hwc-inner .cv-div::after h3 {
+        font-weight: bold;
+        text-transform: capitalize;
+        color: white;
+        text-shadow: #111 2px 1px 2px; }
+    /* line 144, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .item .hwc-inner h4 {
+      padding: 5% 10%;
+      margin: auto;
+      text-align: center;
+      color: #fff;
+      line-height: 2.8em;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    /* line 156, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .item .hwc-inner p {
+      font-style: italic;
+      font-size: 1.5em;
+      color: #dfdfdf;
+      font-weight: 300px; }
+
+@media (min-width: 425px) {
+  /* line 166, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .item .hwc-inner h4 {
+    font-size: 17px;
+    padding-top: 10em; } }
+
+@media (width: 395px) {
+  /* line 173, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-div {
+    width: 70%; } }
+
+/* line 178, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+#item-1 {
+  background: url(../images/bg_12.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  min-height: 70vh;
+  padding-top: 0em;
+  width: 100%; }
+
+/* line 189, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+#item-2 {
+  background: url(../images/bg_11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  min-height: 70vh;
+  padding-top: 0em;
+  width: 100%; }
+
+/* line 200, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+#item-3 {
+  background: url(../images/bg-13.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+  padding-top: 0em;
+  width: 100%; }
+
+/* line 210, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.slide-cover {
+  background: #000;
+  content: "";
+  opacity: 0.30;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 220, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.btn-get-start {
+  background: #FFF;
+  border: 1px solid #056786;
+  border-radius: 2px;
+  boder: 1px solid #056786;
+  color: #056786; }
+
+/* line 228, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.btn-get-start:hover {
+  background-color: #056786;
+  padding: 8px 8px;
+  color: #FFF; }
+
+/* line 234, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-fact-header {
+  position: relative;
+  margin: auto;
+  height: auto; }
+  /* line 238, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-fact-header .cv-fact-section-inner {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%; }
+    /* line 242, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-fact-header .cv-fact-section-inner h3 {
+      color: #986754;
+      text-align: center;
+      font-weight: bold; }
+
+/* line 250, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-info-section {
+  position: relative;
+  margin: auto;
+  height: 250px;
+  padding-bottom: 5%; }
+  /* line 255, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-info-section .cv-info-section-inner {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-bottom: 5%; }
+    /* line 259, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-info-section .cv-info-section-inner h3 {
+      color: #986754;
+      text-align: center;
+      font-weight: bold; }
+    /* line 264, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-info-section .cv-info-section-inner .cv-info-context {
+      color: #333;
+      font-weight: lighter;
+      padding-bottom: .25em;
+      line-height: 2em; }
+
+/* line 274, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-inner-info {
+  padding: .5em .15em;
+  overflow: auto;
+  height: auto;
+  width: auto; }
+  /* line 279, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-inner-info p {
+    line-height: 3em;
+    color: #555;
+    font-weight: 100; }
+
+/* line 286, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-info-slide {
+  padding-top: 9rem;
+  margin-left: 2%; }
+  /* line 289, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-info-slide span {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 25px;
+    color: #444; }
+  @media (width: 475px) {
+    /* line 286, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-info-slide {
+      padding-top: 2rem;
+      margin: auto; } }
+
+/* line 301, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-fact {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow: auto; }
+  @media (min-width: 769px) {
+    /* line 301, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-fact {
+      max-width: 75%; } }
+  @media (max-width: 768px) {
+    /* line 301, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-fact {
+      max-width: 100%; } }
+  /* line 311, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-fact p {
+    line-height: 2.25em;
+    color: #777;
+    font-size: 1.065em;
+    padding-top: 3%; }
+  /* line 317, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-fact i {
+    margin: auto;
+    text-align: center;
+    line-height: 2.5em;
+    color: white;
+    font-size: 5em; }
+
+/* line 326, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-us-over {
+  background: url(../images/ab-bg.jpg);
+  height: 400px;
+  position: relative;
+  box-sizing: content-box;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  overflow: auto; }
+  /* line 336, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .about-us-over .about-us-inner {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center; }
+    /* line 340, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .about-us-over .about-us-inner h3 {
+      color: #FFF;
+      font-weight: bold;
+      text-shadow: gray 2px 2px 3px; }
+  @media (max-width: 1024px) {
+    /* line 347, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .about-us-over h4 {
+      color: white;
+      font-size: 2em;
+      line-height: 1.4em; } }
+
+/* line 355, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-us-cover {
+  background: #785658;
+  content: "";
+  opacity: 0.69;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 365, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-image {
+  background: url("../images/b_1.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0; }
+
+/* line 372, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-btn {
+  padding: 15px 15px;
+  border-radius: 2px;
+  background: #FFF;
+  opacity: .78;
+  font-size: 1.5rem;
+  width: 15vw;
+  color: #084655;
+  font-weight: bold; }
+  @media (width: 645px) {
+    /* line 372, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-btn {
+      display: inline-block;
+      width: 3vw; } }
+
+/* line 387, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-btn-1 {
+  border: 1px solid #957675; }
+
+/* line 391, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-btn-2 {
+  border: 1px solid #5334f2; }
+
+/* line 395, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-btn-3 {
+  border: 1px solid #987423; }
+
+/* line 399, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-updates {
+  height: 500px;
+  margin: auto;
+  width: 100%;
+  overflow: hidden; }
+
+/* line 406, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-updates-inner {
+  position: absolute;
+  width: 100%;
+  padding-top: 1%;
+  text-align: center; }
+  /* line 411, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-updates-inner h3 {
+    color: #986754;
+    font-weight: bold; }
+
+/* line 417, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-update-form {
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  border: 1px solid #734353;
+  padding: 10px 15px;
+  width: 100%; }
+
+/* line 425, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.btn-cv {
+  background: #734353;
+  color: white !important;
+  width: 80%;
+  border-radius: 0px !important;
+  padding: 10px;
+  margin-top: 2px;
+  border: 1px solid #734353; }
+
+/* line 435, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-image-update {
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-origin: content-box;
+  height: 100%; }
+
+/* line 443, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-testimony {
+  position: relative;
+  background: url(../images/handup.jpg);
+  height: 400px;
+  box-sizing: content-box;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  overflow: auto; }
+  /* line 453, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .cv-testimony .cv-testimony-inner {
+    padding-top: 1%;
+    color: #fff; }
+    /* line 456, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .cv-testimony .cv-testimony-inner h3 {
+      text-align: center;
+      font-weight: bold;
+      color: #FFF; }
+
+/* line 464, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.art {
+  padding: 10px 15px;
+  color: white;
+  margin-left: 8rem; }
+  /* line 468, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .art a {
+    color: white;
+    font-weight: bold; }
+  /* line 472, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .art a:hover {
+    color: none;
+    text-decoration: none; }
+
+/* line 478, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.cv-testimony-cover {
+  background: #888;
+  content: "";
+  opacity: 0.69;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 488, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-page {
+  position: relative;
+  background: url(../images/ab-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 400px;
+  color: #FFF;
+  overflow: auto; }
+  /* line 498, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .about-page h2 {
+    text-align: center;
+    padding-top: 13%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 4em;
+    text-shadow: #111 2px 3px 2px;
+    position: relative; }
+
+/* line 508, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.a-c {
+  background: #888;
+  content: "";
+  opacity: 0.69;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 518, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-us-context {
+  margin-top: 2%;
+  margin-bottom: 20%;
+  line-height: 30px;
+  text-align: justify; }
+
+@media (width: 475px) {
+  /* line 526, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .about-page {
+    position: absolute;
+    height: 200px; }
+    /* line 529, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .about-page h2 {
+      padding-top: 10%;
+      font-size: 2em; } }
+
+/* line 536, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-page-bg {
+  position: relative;
+  background: url(../images/ab-bg.jpg);
+  box-sizing: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #111;
+  overflow: auto; }
+
+/* line 547, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.about-page-cover {
+  background: #fff;
+  content: " ";
+  opacity: 0.95;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 557, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.inner-image {
+  padding: 13rem;
+  margin-left: 12rem; }
+  @media (width: 465px) {
+    /* line 561, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .inner-image .inner-image {
+      margin-left: 2rem;
+      width: 30%; } }
+
+/* line 568, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.contact-page {
+  position: relative;
+  background: url(../images/b_17.jpg);
+  box-sizing: content-box;
+  background-position: right;
+  background-size: cover;
+  height: 60%;
+  background-repeat: no-repeat; }
+  /* line 576, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .contact-page h2 {
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bold;
+    color: #fff;
+    font-size: 4em; }
+
+/* line 585, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.contact-page-cover {
+  background: #111;
+  content: " ";
+  opacity: 0.75;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 595, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.contact-inner {
+  position: relative;
+  padding-top: 4rem;
+  height: auto; }
+  /* line 599, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .contact-inner .form-control {
+    border-radius: 0px !important;
+    box-shadow: none !important; }
+
+/* line 605, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.btn {
+  border-radius: 0px !important;
+  box-shadow: none !important; }
+
+/* line 610, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.btn-msg {
+  padding: 10px 15px;
+  background: #767588;
+  color: white;
+  border: none;
+  width: 40%; }
+
+/* line 618, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.detail {
+  margin-right: 3.5rem;
+  margin-bottom: 2rem;
+  height: auto;
+  border-right: 2px solid #866587; }
+  /* line 623, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .detail h3 {
+    font-size: 1.54em;
+    color: black;
+    border-bottom: 5px solid #111;
+    display: block; }
+    /* line 628, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .detail h3 h3::after {
+      background: #fff; }
+  /* line 632, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .detail ::after {
+    content: "  ";
+    color: aqua;
+    background: white; }
+  /* line 637, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .detail .contact-address {
+    display: block;
+    break-after: column;
+    text-align: left;
+    color: #333;
+    line-height: 25px;
+    padding: 10px 15px; }
+
+@media (width: 475px) {
+  /* line 648, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .contact-address {
+    height: 200px;
+    padding: 1.34em 1.76em;
+    display: block;
+    position: relative; } }
+
+/* line 656, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.article-main,
+.side {
+  border: 1px solid #578686;
+  height: 100%; }
+
+/* line 662, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.fact-section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow: auto; }
+  @media (min-width: 769px) {
+    /* line 662, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .fact-section {
+      max-width: 75%; } }
+  @media (max-width: 768px) {
+    /* line 662, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+    .fact-section {
+      max-width: 100%; } }
+  /* line 672, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .fact-section p {
+    line-height: 2.25em;
+    color: #777;
+    font-size: 1.065em;
+    padding-top: 3%; }
+  /* line 678, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .fact-section i {
+    margin: auto;
+    text-align: center;
+    line-height: 2.5em;
+    color: white;
+    font-size: 5em; }
+
+/* line 687, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.error-section {
+  width: 100%;
+  background: url(../images/lozt.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+
+/* line 696, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.error-cover {
+  background: purple;
+  content: " ";
+  opacity: 0.75;
+  min-height: 100%;
+  overflow: auto;
+  width: 100%;
+  position: absolute; }
+
+/* line 706, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.error-content {
+  margin: 20% auto;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+  /* line 712, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .error-content span {
+    padding: 10rem auto;
+    font-size: 25.43em;
+    color: white;
+    position: relative; }
+  /* line 718, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .error-content h2 {
+    color: white;
+    font-stretch: expanded;
+    font-style: italic;
+    font-weight: lighter;
+    position: relative; }
+  /* line 725, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .error-content a {
+    padding: 10px;
+    color: #FFF; }
+  /* line 729, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .error-content a::hover {
+    text-decoration: none; }
+
+/* line 734, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.login-container-2 {
+  margin: 6rem auto 0;
+  padding: 15px;
+  width: 100%;
+  border-color: #279AF1;
+  border: 1px solid transparent; }
+  /* line 741, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .login-container-2 .form-control {
+    padding: 1.63em 1.24em;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border-color: transparent;
+    height: 2.3em;
+    border: 1px solid #242433;
+    border-left: none; }
+  /* line 750, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .login-container-2 .input-group-addon {
+    background: none;
+    border-radius: 0;
+    border: 1px solid #242433;
+    border-right: none; }
+  /* line 756, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .login-container-2 .btn {
+    border-radius: 0px; }
+  /* line 759, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .login-container-2 .btn-submit {
+    background: #F7F7FF;
+    color: #070600;
+    padding: 1em 1em;
+    width: 50%; }
+  /* line 765, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .login-container-2 .btn-submit:hover {
+    color: #FFFFFF;
+    background: #3399FF; }
+
+/* line 770, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+.social-login {
+  margin-top: 1rem;
+  background: #3399FF;
+  padding: 5px;
+  height: auto; }
+  /* line 775, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .social-login h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600; }
+  /* line 780, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .social-login .btn-div {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 100%;
+    float: right;
+    display: inline-block; }
+  /* line 787, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .social-login .btn-facebook {
+    background: #3399FF;
+    color: #FFFFFF;
+    padding: 1em 1.2em; }
+
+@media (width: 400px) {
+  /* line 794, ../../wamp64/www/cvbuilder/assets/scss/web.scss */
+  .error-content {
+    margin: 40% auto; } }
+
+/*# sourceMappingURL=web.css.map */

@@ -79,10 +79,7 @@
                 background: rgba(255, 255, 255, 0.2);
                 border-left: 2px solid #F00;
             }
-            &:active {
-                text-decoration: none;
-            }
-            &:focus {
+            &:active, :focus {
                 text-decoration: none;
             }
         }
